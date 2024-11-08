@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angular Unit teszt feladat</title>
+	<script src="testBase.js"></script>
+</head>
+<body>
+    <div id="newProj">ng new listaFeladat<!-- 1. feladat --></div>
+    <div id="newComp">ng generate component listacomp<!-- 2. feladat --></div>
+    <div id="elemekArray">let elemek:string[] = ["Elem1", "Elem2", "Elem3"];<!-- 3. feladat --></div>
+    <div id="angularFelsorolas"><li *ngFor="let elem of elemek">{{elem}}</li><!-- 4. feladat --></div>
+	<hr>
+	<div id="testResult">
+	<h2>Tesztek</h2></div>
+	<script src="testAngular.js"></script>
+</body>
+</html>
